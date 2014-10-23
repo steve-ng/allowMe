@@ -2,7 +2,7 @@ AllowMe
 =========
 >Visual aid for your users in giving you browser's permission such as cam or mic
 
-![Animated GIF](http://s30.postimg.org/a1pe6r78f/allow_Me.gif)
+![Animated GIF](https://github.com/steve-ng/allowMe/blob/gh-pages/allowMe_SS.gif?raw=true)
 
 ___
 
