@@ -35,6 +35,9 @@ Getting Started
         arrowColor: "#FFFFFF",
         arrowSize: 1.5
     });
+
+    //to hide
+    permission.hide();
 ```
 
 That's it!
