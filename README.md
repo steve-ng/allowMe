@@ -12,7 +12,7 @@ Getting Started
 
 **Step 1: Installation through bower **
 
-    bower install allowMe
+    bower install allow-me
 
 **Step 2: Add both allowMe.js and allowMe.css into your index.html**
 
