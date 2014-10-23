@@ -1,0 +1,15 @@
+{
+  "name": "AllowMe",
+  "description": "Visual aid for your users in giving you browser's permission such as cam or mic",
+  "version": "0.1.0",
+  "main": [
+    "allowMe.js",
+    "allowMe.css"
+  ],
+  "keywords": [
+    "notifcation"
+  ],
+  "ignore": [
+    "**/.*"
+  ]
+}
