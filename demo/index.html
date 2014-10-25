@@ -1,0 +1,49 @@
+<html>
+	
+	<head>
+
+	    <link rel="stylesheet" href="main.css">
+	    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/allow-me/0.1.1/allowMe.min.css">
+
+	</head>	
+
+	<body>
+
+		<div id="container">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/allow-me/0.1.1/allowMe.min.js"></script>
+
+		<script>
+
+			//code to attempt to get your user media stream which will cause the permission pop out 
+		 	navigator.webkitGetUserMedia({ audio: true, video: true },
+                function (stream) {
+                    mediaStream = stream;
+                },
+                function (error) {
+                    console.error("Error trying to get the stream:: " + error.message);
+        	});
+
+		 	//allow-me 
+			var permission = new allowMe();
+		    permission.show('container', {
+		    
+		        headerText: "Click allow to turn on your web cam ",
+		        headerFontSize: "40px",
+		        headerFont: "PT Sans, serif",
+		    
+		        captionText: "Clicking allow means you'll provide camera and microphone access allowing the other parties will hear and see you.",
+		        captionFontSize: "20px",
+		        captionFont: "PT Sans, serif",
+		    
+		        backdropColor: '#000',
+		        backdropOpacity: 0.7,
+		    
+		        arrowColor: "#FFFFFF",
+		        arrowSize: 1.5
+		    });
+
+		</script>	
+
+	</body>
+
+</html>
